@@ -12,7 +12,7 @@ The <code>font-size</code> property in CSS is not limited to headings, it can be
 
 ## Instructions
 <section id='instructions'>
-Change the value of the <code>font-size</code> property for the paragraph to 16px to make it more visible.
+Change the value of the <code>font-size</code> property for the paragraph to 17px to make it more visible.
 </section>
 
 ## Tests
@@ -20,8 +20,8 @@ Change the value of the <code>font-size</code> property for the paragraph to 16p
 
 ```yml
 tests:
-  - text: Your <code>p</code> tag should have a <code>font-size</code> of 16 pixels.
-    testString: assert($('p').css('font-size') == '16px', 'Your <code>p</code> tag should have a <code>font-size</code> of 16 pixels.');
+  - text: Your <code>p</code> tag should have a <code>font-size</code> of 17 pixels.
+    testString: assert($('p').css('font-size') == '17px', 'Your <code>p</code> tag should have a <code>font-size</code> of 17 pixels.');
 
 ```
 
